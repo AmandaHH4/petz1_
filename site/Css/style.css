@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    padding: 0; /* distancia de dentro */
+    margin: 0; /* distancia de fora */
+    box-sizing: 0; /*elemento */
+}
+
+:root{
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    height: 85px; /*altura */
+    display: flex; /*flexibiliza */
+    align-items: center; /* alinha */
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+}
+.navHeader{
+    display: flex;
+    justify-content: space-between; /* distancia entre elementos*/
+    width: 85%;/* largura */
+    margin: auto; /* tecnica de centralizar */
+}
+.containerlinks{
+    display: flex;
+    justify-content: space-between;
+    width: 210px; /* quando trabalhar com link colocar px */
+}
+.link{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #33303E;
+}
+.orange{
+   color:  #FF6E22;
+}
+
+
+
+/* section1 */
+
+h1{
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.auxiliarsec p{
+    font-size: 28px;
+    padding: 45px 0 35px 0;
+    
+
+}
+.section1{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    
+    
+
+}
+.auxiliarsec{
+    
+    text-align: left;  
+}
+.botao_encontrar  {
+    color: #fff;
+    background-color: #FF6E22;
+    padding: 6px 17px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* imgs */
+.dogs1{
+margin: 0 0 50px 0;
+}
+.dogs2{
+ margin: 0 0 0 50px;
+}
+
+/* section2 */
+
+
+h2 {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+}
+.section2{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    background-color: bisque;
+}
